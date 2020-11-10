@@ -1,4 +1,4 @@
-# zerohero_video
+# exploration_planner
 
 A new Flutter project.
 
