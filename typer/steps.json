@@ -1,0 +1,46 @@
+[
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_01_blank_start.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_02_import_main.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_03_main_comments.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_04_myapp.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_05_myapp_build.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_06_my_material_app.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_07_scaffold_appbar.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_08_scaffold_body.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_09_progress.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_10_tasklist.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_11_taskitem.dart"
+  }
+]
