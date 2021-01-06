@@ -36,7 +36,7 @@ class Progress extends StatelessWidget {
     return Column(
       children: [
         Text("You are this far away from exploring the whole universe:"),
-        LinearProgressIndicator(),
+        LinearProgressIndicator(value: 0.0),
       ],
     );
   }

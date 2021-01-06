@@ -23,7 +23,6 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         children: [
           Progress(),
-          TaskList(),
         ],
       ),
     );

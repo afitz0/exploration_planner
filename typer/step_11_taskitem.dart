@@ -36,7 +36,7 @@ class Progress extends StatelessWidget {
     return Column(
       children: [
         Text("You are this far away from exploring the whole universe:"),
-        LinearProgressIndicator(),
+        LinearProgressIndicator(value: 0.0),
       ],
     );
   }
@@ -47,7 +47,7 @@ class TaskList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        TaskItem(label: "Load Rocket with supplies"),
+        TaskItem(label: "Load rocket with supplies"),
         TaskItem(label: "Launch rocket"),
         TaskItem(label: "Circle the home planet"),
         TaskItem(label: "Head out to the first moon"),
