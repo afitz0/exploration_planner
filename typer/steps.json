@@ -42,5 +42,18 @@
   {
     "file": "lib/main.dart",
     "content": "typer/step_11_taskitem.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_12_taskitem_incorrect.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_13_taskitem_stateful.dart"
+  },
+  {
+    "file": "lib/main.dart",
+    "content": "typer/step_14_taskitem_setstate.dart",
+    "charsPerChange": 1
   }
 ]

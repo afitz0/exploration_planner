@@ -18,7 +18,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Space Exploration Planner!"),
+        title: Text('Space Exploration Planner!'),
       ),
       body: Column(
         children: [
@@ -35,7 +35,7 @@ class Progress extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text("You are this far away from exploring the whole universe:"),
+        Text('You are this far away from exploring the whole universe:'),
         LinearProgressIndicator(value: 0.0),
       ],
     );

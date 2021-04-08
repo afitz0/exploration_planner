@@ -18,7 +18,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Space Exploration Planner!"),
+        title: Text('Space Exploration Planner!'),
       ),
       body: Column(
         children: [

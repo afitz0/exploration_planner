@@ -57,17 +57,27 @@ class TaskList extends StatelessWidget {
   }
 }
 
-class TaskItem extends StatelessWidget {
+class TaskItem extends StatefulWidget {
   final String label;
 
-  const TaskItem({Key? key, required this.label}) : super(key: key);
+  TaskItem({Key? key, required this.label}) : super(key: key);
+
+  @override
+  _TaskItemState createState() => _TaskItemState();
+}
+
+class _TaskItemState extends State<TaskItem> {
+  bool? _value = false;
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Checkbox(onChanged: null, value: false),
-        Text(label),
+        Checkbox(
+          onChanged: (newValue) => _value = newValue,
+          value: _value,
+        ),
+        Text(widget.label),
       ],
     );
   }
