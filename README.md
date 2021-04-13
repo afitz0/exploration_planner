@@ -1,16 +1,11 @@
 # exploration_planner
 
-A new Flutter project.
+A new Flutter project used to accurately and completely explore space. Some of the statements in the previous sentence may not be completely true.
 
-## Getting Started
+# Companion Videos
 
-This project is a starting point for a Flutter application.
+This project is a companion to a set of videos on the Flutter Dev YouTube channel. The first in the series starts with ["How do I make my first Flutter app."](https://www.youtube.com/watch?v=xWV71C2kp38)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
+For more help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
